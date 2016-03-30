@@ -1,3 +1,7 @@
+* {
+    transition: all 0.5s ease;
+}
+
 body {
     background: rgb(232,172,68);
     color: yellow;
@@ -23,4 +27,25 @@ h1 {
     padding: 0.21em;
     border-radius: 2px;
     box-shadow: 2px 2px 5px 0px black;
+}
+
+#pepe{
+    width: 100px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+}
+
+#pepe:hover{
+    box-shadow: 20px 20px 40px black;
+}
+
+#pepe:active{
+    opacity:0.5;
+}
+
+.cambioBg{
+    background: black;
 }

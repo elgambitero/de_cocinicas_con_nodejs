@@ -8,18 +8,18 @@ var screen = blessed.screen({
 screen.title = 'Meneascrapper';
 
 var list = blessed.list({
-	top:'center',
-	left:'center',
-	width:'60%',
-	height:'80%',
-	padding:'3',
-	input:true,
-	keys: true,
-	border: {
-		type: 'line'
-	},
+    top:'center',
+    left:'center',
+    width:'60%',
+    height:'80%',
+    padding:'3',
+    input:true,
+    keys: true,
+    border: {
+        type: 'line'
+    },
   items: ["1", "2", "3", "4", "5"],
-	style:{fg:'white', bg:'blue'}
+    style:{fg:'white', bg:'blue'}
 });
 
 // Create a box perfectly centered horizontally and vertically.
